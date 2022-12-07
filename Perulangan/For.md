@@ -14,3 +14,5 @@ foreach (var item in angka)
     Console.WriteLine(item);
 }
 ```
+
+[Home](../README.md)

@@ -113,3 +113,4 @@ Console.WriteLine($"Nilai terkecil dari array `aa` adalah {aa.Min()}");
 Console.WriteLine($"Nilai terbesar dari array `aa` adalah {aa.Max()}");
 Console.WriteLine($"Total nilai dari array `aa` adalah {aa.Sum()}");
 ```
+[Home](../README.md)

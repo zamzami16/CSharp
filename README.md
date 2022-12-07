@@ -12,4 +12,6 @@
 - [For Statement](Perulangan/For.md)
 - [While Statement](Perulangan/While.md)
 - [Working with String](String/StringManipulations.md)
-- </details>
+- [Method](Method/method.md)
+
+</details>
