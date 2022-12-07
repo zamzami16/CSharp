@@ -2,7 +2,7 @@
 
 Sekumpulan konstanta / tidak dapat diganti, dan dapat diakses langsung nama konstantanya.
 contoh:
-```
+```Csharp
 public enum namaHari
 {
     Senin,
@@ -25,7 +25,7 @@ Console.WriteLine($"Apakah minggu adalah akhir pekan? {(namaHari.AkhirPekan & na
 ```
 
 kita juga bisa mengakses indexnya dengan
-```
+```Csharp
 int indexSenin = (int)namaHari.Senin;
 Console.WriteLine($"Index hari senin adalah {indexSenin}");
 
@@ -33,7 +33,7 @@ Console.WriteLine($"Index hari senin adalah {indexSenin}");
 ```
 
 Kita juga bisa menginisiasi index pada enum
-```
+```Csharp
 public enum namaHari
 {
     Senin = 1,
@@ -56,15 +56,15 @@ Console.WriteLine($"Index hari kamis adalah {indexKamis}");
 int indexJumat = (int)namaHari.Jumat;
 Console.WriteLine($"Index hari kamis adalah {indexJumat}");
 
-Output:
-Index hari senin adalah 1
-Index hari kamis adalah 2
-Index hari kamis adalah 10
-Index hari kamis adalah 11
+// Output:
+// Index hari senin adalah 1
+// Index hari kamis adalah 2
+// Index hari kamis adalah 10
+// Index hari kamis adalah 11
 ```
 
 **Contoh dari w3schools**
-```
+```Csharp
 enum Level 
 {
   Low,
@@ -89,5 +89,5 @@ static void Main(string[] args)
   }
 }
 
-Output: Medium level
+// Output: Medium level
 ```

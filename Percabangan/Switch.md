@@ -1,7 +1,7 @@
 # <ins>Switch statement</ins>
 Apabila terlalu banyak pilihan, maka statement IF dapat diganti dengan switch agar lebih efektif.
 ## Penggunaan
-```
+```Csharp
 int data = 0;
 switch (data)
 {
@@ -17,7 +17,7 @@ switch (data)
 ```
 > Penggunaan switch lebih enak dengan type enum
 > contoh:
-```
+```Csharp
 public enum namaHari
 {
     Senin,

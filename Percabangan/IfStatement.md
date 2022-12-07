@@ -1,7 +1,7 @@
 # <ins>IF Statement</ins>
 
 ## Penggunaan
-```
+```Csharp
 if (true)
 {
     // Block code here
@@ -16,7 +16,7 @@ else
 }
 ```
 contoh:
-```
+```Csharp
 if (num == 1)
 {
     Console.WriteLine("1 betul");
