@@ -1,7 +1,8 @@
 # My Footnote about learning CSharp
 
 <details><summary><strong>BASIC</strong></summary>
-**Index**
+
+# **Index**
 
 - [Tipe Data](Tipe%20Data/TipeData.md)
 - [Aritmatika](Aritmatika/BasicAritmatika.md)
