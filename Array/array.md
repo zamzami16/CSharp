@@ -59,12 +59,40 @@ int[,,] aa = {
 ```
 
 ## Mengakses Array
+
+menggunakan index
+
 ```Csharp
 int[,] aa = {
     {0, 1},
     {10, 11}
 };
 int dump = aa[0, 0];
+```
+
+jika ingin mengakses masing-masing array, bisa menggunakan for loop
+
+```CSharp
+int[,] aa = {
+    {0, 1, 2, 3, 4},
+    {10, 11, 12, 13, 14},
+    {20, 21, 22, 23, 14},
+    {30, 31, 32, 33, 34}
+};
+
+for (int i = 0; i < aa.GetLength(0); i++)
+{
+    for (int j = 0; j < aa.GetLength(1); j++)
+    {
+        Console.WriteLine($"Elemen baris ke-{i} dan kolom ke-{j} adalah {aa[i, j]}");
+    }
+}
+
+// Potongan Output:
+// Elemen baris ke-0 dan kolom ke-0 adalah 0
+// Elemen baris ke-0 dan kolom ke-1 adalah 1
+// Elemen baris ke-0 dan kolom ke-2 adalah 2
+// Elemen baris ke-0 dan kolom ke-3 adalah 3
 ```
 
 ## Sortir array
