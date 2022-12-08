@@ -20,6 +20,7 @@
 - [Inheritance](Class/inheritance.md)
 - [Abstract Calss & Method Overriding](Class/AbstractClass_MethodOverriding.md)
 - [Polimorf](Class/Polimorf.md)
+- [interface](Interface/interface.md)
 
 </details>
 
