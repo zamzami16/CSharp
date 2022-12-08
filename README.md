@@ -16,3 +16,10 @@
 - [Method](Method/method.md)
 
 </details>
+
+**Lainnya**
+
+> Note
+> nuget config
+>
+> > `https://api.nuget.org/v3/index.json`
