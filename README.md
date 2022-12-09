@@ -2,8 +2,6 @@
 
 <details><summary><strong>BASIC</strong></summary>
 
-# **Index**
-
 - [Tipe Data](Tipe%20Data/TipeData.md)
 - [Aritmatika](Aritmatika/BasicAritmatika.md)
 - [Array](Array/array.md)
@@ -24,8 +22,17 @@
 
 </details>
 
+<details><summary><strong>INTERMEDIATE</strong></summary>
+
+- [Data Table](Intermediate/dataTable.md)
+
+</details>
+
 **Lainnya**
 
 > Note
+>
 > - nuget config
 >   > `https://api.nuget.org/v3/index.json`
+> - Form
+>   > Set `textbox` to uppercase: `CharacterCasing`
